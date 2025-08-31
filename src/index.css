@@ -283,18 +283,17 @@
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
     
-    /* Mobile-specific hero section fixes */
-    .hero-section {
-      min-height: calc(100vh - 80px);
-      padding-top: 80px; /* Account for fixed navbar */
-      align-items: flex-start;
-      padding-top: 120px; /* Extra padding to ensure content is visible */
-    }
-    
-    .hero-content {
-      padding: 1rem;
-      margin-top: 2rem;
-    }
+         /* Mobile-specific hero section fixes */
+     .hero-section {
+       min-height: calc(100vh - 80px);
+       padding-top: 90px; /* Just enough to clear the navbar */
+       align-items: flex-start;
+     }
+     
+     .hero-content {
+       padding: 1rem;
+       margin-top: 0; /* Remove extra margin */
+     }
     
     .hero-title {
       font-size: clamp(2.5rem, 6vw, 4rem);

@@ -6,12 +6,12 @@
 @media (max-width: 768px) {
   .home-page {
     margin-top: 0;
-    padding-top: 80px; /* Add padding instead of negative margin on mobile */
+    padding-top: 0; /* Remove extra padding */
   }
   
   .hero-section {
     min-height: calc(100vh - 80px); /* Adjust height for mobile */
-    padding-top: 2rem; /* Add some top padding */
+    padding-top: 0; /* Remove extra padding */
   }
 }
 
