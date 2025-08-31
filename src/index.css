@@ -282,5 +282,33 @@
     .skills-grid {
       grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     }
+    
+    /* Mobile-specific hero section fixes */
+    .hero-section {
+      min-height: calc(100vh - 80px);
+      padding-top: 80px; /* Account for fixed navbar */
+      align-items: flex-start;
+      padding-top: 120px; /* Extra padding to ensure content is visible */
+    }
+    
+    .hero-content {
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    
+    .hero-title {
+      font-size: clamp(2.5rem, 6vw, 4rem);
+      margin-bottom: 1rem;
+    }
+    
+    .hero-subtitle {
+      font-size: clamp(1.2rem, 3vw, 1.5rem);
+      margin-bottom: 1rem;
+    }
+    
+    .hero-description {
+      font-size: clamp(1rem, 2vw, 1.1rem);
+      margin-bottom: 2rem;
+    }
   }
 }

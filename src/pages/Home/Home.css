@@ -2,6 +2,19 @@
   margin-top: -80px; /* Account for fixed navigation */
 }
 
+/* Fix for mobile devices - ensure hero content is visible */
+@media (max-width: 768px) {
+  .home-page {
+    margin-top: 0;
+    padding-top: 80px; /* Add padding instead of negative margin on mobile */
+  }
+  
+  .hero-section {
+    min-height: calc(100vh - 80px); /* Adjust height for mobile */
+    padding-top: 2rem; /* Add some top padding */
+  }
+}
+
 .hero-actions {
   display: flex;
   gap: 1.5rem;
