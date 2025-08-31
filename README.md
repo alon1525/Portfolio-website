@@ -3,7 +3,7 @@
 
 A **modern portfolio website** built with React to showcase your **projects, skills, and professional information** with a clean and responsive design.
 
-🌐 **Live Demo:** [Visit Portfolio](https://your-vercel-link.vercel.app)
+🌐 **Live Demo:** [Visit Portfolio]([https://your-vercel-link.vercel.app](https://portfolio-website-chi-eight-85.vercel.app/))
 
 ---
 
@@ -62,3 +62,4 @@ src/
   * `Skills.js` → Skills & proficiency
   * `Contact.js` → Contact info
 * **Styling:** Update Tailwind classes or add custom CSS
+
