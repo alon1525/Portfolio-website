@@ -26,22 +26,22 @@ const profile = {
 
 const services = [
   {
-    title: 'Web Design',
-    code: 'UI',
+    title: 'Zporti',
+    code: 'ZP',
     description:
-      'Polished layouts, strong visual hierarchy, and responsive screens that feel intentional on every device.',
+      'Cross-platform app and API work: Expo and React Native on the client, Node.js and PostgreSQL behind the features, auth, and live match updates over Socket.io—built with a modern React stack, not jQuery or Bootstrap.',
   },
   {
-    title: 'React Development',
-    code: 'JS',
+    title: 'Kardingo',
+    code: 'KR',
     description:
-      'Modern React components, reusable data structures, and smooth interactions without jQuery or Bootstrap lock-in.',
+      'Mobile-first study product with a defined brand, cozy UI, decks and progress, and gentle gamification—layout, motion, and screens handled in code and design, without legacy CSS frameworks.',
   },
   {
-    title: 'Product Polish',
-    code: 'QA',
+    title: 'End-to-end delivery',
+    code: 'FS',
     description:
-      'Performance-minded details, accessibility basics, and finishing touches that make a portfolio feel production ready.',
+      'From Zporti-scale backends and realtime UX to Kardingo-style interfaces and Unity jam games, I ship cohesive features: clear components, sensible data flow, and deployable builds.',
   },
 ]
 
