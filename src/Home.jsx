@@ -26,22 +26,22 @@ const profile = {
 
 const services = [
   {
-    title: 'Zporti',
-    code: 'ZP',
+    title: 'Web Design',
+    code: 'UI',
     description:
-      'Cross-platform app and API work: Expo and React Native on the client, Node.js and PostgreSQL behind the features, auth, and live match updates over Socket.io—built with a modern React stack, not jQuery or Bootstrap.',
+      'On Kardingo I carried the look from the brand sheet into the app: deck grid with search and per-topic progress, home hub around the pet and level ring, streak and XP cards, and review CTAs—soft palette, rounded type, and spacing that keeps study screens calm and scannable.',
   },
   {
-    title: 'Kardingo',
-    code: 'KR',
+    title: 'React Development',
+    code: 'JS',
     description:
-      'Mobile-first study product with a defined brand, cozy UI, decks and progress, and gentle gamification—layout, motion, and screens handled in code and design, without legacy CSS frameworks.',
+      'On Zporti I build in Expo and React Native—challenges, picks, fixtures, and live score views—as composed screens and hooks tied to real API data and auth, the same component-driven style I use on Kardingo, without jQuery or Bootstrap.',
   },
   {
-    title: 'End-to-end delivery',
-    code: 'FS',
+    title: 'Product Polish',
+    code: 'QA',
     description:
-      'From Zporti-scale backends and realtime UX to Kardingo-style interfaces and Unity jam games, I ship cohesive features: clear components, sensible data flow, and deployable builds.',
+      'Zporti needs dependable match-day behavior: picks that respect lock rules and UI that stays coherent when Socket.io pushes live updates. On Kardingo it is the study loop—queue counts, session entry points, and pet and stats tabs that stay clear on a phone.',
   },
 ]
 
