@@ -29,19 +29,19 @@ const services = [
     title: 'Web Design',
     code: 'UI',
     description:
-      'On Kardingo I carried the look from the brand sheet into the app: deck grid with search and per-topic progress, home hub around the pet and level ring, streak and XP cards, and review CTAs—soft palette, rounded type, and spacing that keeps study screens calm and scannable.',
+      'I design clean, mobile-first interfaces with a strong visual system. In Kardingo, I translated the brand, mascot, colors, progress states, and study flows into screens that feel calm, playful, and easy to use.',
   },
   {
     title: 'React Development',
     code: 'JS',
     description:
-      'On Zporti I build in Expo and React Native—challenges, picks, fixtures, and live score views—as composed screens and hooks tied to real API data and auth, the same component-driven style I use on Kardingo, without jQuery or Bootstrap.',
+      'I build component-driven React and React Native experiences connected to real product data. In Zporti, that means challenge flows, match picks, fixtures, auth-aware screens, and live score updates.',
   },
   {
     title: 'Product Polish',
     code: 'QA',
     description:
-      'Zporti needs dependable match-day behavior: picks that respect lock rules and UI that stays coherent when Socket.io pushes live updates. On Kardingo it is the study loop—queue counts, session entry points, and pet and stats tabs that stay clear on a phone.',
+      'I care about the details that make a product feel reliable: clear states, responsive layouts, smooth flows, and behavior that holds up under real use—from Zporti match days to Kardingo study sessions.',
   },
 ]
 
